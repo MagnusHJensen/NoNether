@@ -187,7 +187,7 @@ String getCurseforgeChangelogText() {
         if (it.size() > 1) {
             def temp = it
             if (lineCount == 0) {
-                temp = "${modname} ${version}"
+                temp = "${project_name} ${version}"
                 temp = "<h2>$temp</h2>"
             } else if (it.startsWith('-')) {
                 temp = "&nbsp;&nbsp;&nbsp;$temp"
