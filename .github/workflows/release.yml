@@ -27,3 +27,8 @@ jobs:
           curseforge-id: 822383
           curseforge-token: ${{ secrets.CURSEFORGE_API_KEY }}
           changelog-file: changelog.txt
+          version-resolver: exact # Needed else, it would add 1.19.3 as a supported version.
+          game-versions: |
+            1.19
+            1.19.1
+            1.19.2
