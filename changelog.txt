@@ -1,2 +1,5 @@
+1.19.2-1.0.1:
+- Upload to Modrinth
+
 1.19.2-1.0.0:
 - First release
