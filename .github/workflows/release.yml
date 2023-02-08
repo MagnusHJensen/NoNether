@@ -18,4 +18,12 @@ jobs:
         uses: gradle/gradle-build-action@v2
       - name: Execute Gradle
         id: build
-        run: chmod +x gradlew && ./gradlew build curseforge ${{ format('-Pcurseforge_key={0}', secrets.CURSEFORGE_API_KEY) }}
+        run: chmod +x gradlew && ./gradlew build
+      - name: Publish
+        uses: Kir-Antipov/mc-publish@v3.2
+        with:
+          modrinth-id: i09OoRSM
+          modrinth-token: ${{ secrets.MODRINTH_API_KEY }}
+          curseforge-id: 822383
+          curseforge-token: ${{ secrets.CURSEFORGE_API_KEY }}
+          changelog-file: changelog.txt
