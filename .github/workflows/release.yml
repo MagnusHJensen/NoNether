@@ -10,7 +10,7 @@ jobs:
     name: 'Release'
     if: | 
       contains(github.event.release.name, '1.18') ||
-      contains(github.event.release.name, '1.19 ') ||
+      contains(github.event.release.name, '1.19 ')
     steps:
       - uses: actions/checkout@v3
         name: "Checkout Repository"
