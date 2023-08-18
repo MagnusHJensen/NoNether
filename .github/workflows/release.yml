@@ -29,4 +29,4 @@ jobs:
           modrinth-token: ${{ secrets.MODRINTH_API_KEY }}
           curseforge-id: 822383
           curseforge-token: ${{ secrets.CURSEFORGE_API_KEY }}
-          changelog-file: changelog.txt
+          changelog-file: changelog.md
