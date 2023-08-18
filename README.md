@@ -1,1 +1,1 @@
-# No Nether Teleport - 1.19.3
+# No Nether Teleport - 1.20.1
