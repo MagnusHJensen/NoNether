@@ -52,7 +52,7 @@ unifiedPublishing {
         version = "${mod_version}" // Optional, Inferred from project by default
         changelog = rootProject.file("CHANGELOG.md").text // Optional, in markdown format
         releaseType = "release" // Optional, use "release", "beta" or "alpha"
-        gameVersions = ["1.20.1", "1.20.2", "1.20.3"]
+        gameVersions = ["1.21.1"]
         gameLoaders = ["forge"]
 
         mainPublication tasks.named('jar', Jar).flatMap { it.archiveFile } // Declares the publicated jar
