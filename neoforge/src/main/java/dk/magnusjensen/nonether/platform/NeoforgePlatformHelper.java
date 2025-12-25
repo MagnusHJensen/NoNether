@@ -1,8 +1,8 @@
 package dk.magnusjensen.nonether.platform;
 
 import dk.magnusjensen.nonether.platform.services.IPlatformHelper;
-import net.minecraftforge.fml.ModList;
-import net.minecraftforge.fml.loading.FMLLoader;
+import net.neoforged.fml.ModList;
+import net.neoforged.fml.loading.FMLLoader;
 
 public class NeoforgePlatformHelper implements IPlatformHelper {
 
