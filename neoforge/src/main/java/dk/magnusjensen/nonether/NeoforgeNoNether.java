@@ -8,9 +8,9 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod(Constants.MOD_ID)
 @Mod.EventBusSubscriber(modid = Constants.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
-public class ForgeNoNether {
+public class NeoforgeNoNether {
     
-    public ForgeNoNether() {
+    public NeoforgeNoNether() {
         CommonClass.init();
         
     }
